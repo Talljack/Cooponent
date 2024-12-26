@@ -28,5 +28,6 @@ let package = Package(
         .testTarget(
             name: "CooponentTests",
             dependencies: ["Button", "Segment"])
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
