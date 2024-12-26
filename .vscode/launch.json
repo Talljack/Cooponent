@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:Cooponent}",
+      "name": "Debug SegmentedControlExample",
+      "program": "${workspaceFolder:Cooponent}/.build/debug/SegmentedControlExample",
+      "preLaunchTask": "swift: Build Debug SegmentedControlExample"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:Cooponent}",
+      "name": "Release SegmentedControlExample",
+      "program": "${workspaceFolder:Cooponent}/.build/release/SegmentedControlExample",
+      "preLaunchTask": "swift: Build Release SegmentedControlExample"
+    }
+  ]
+}
